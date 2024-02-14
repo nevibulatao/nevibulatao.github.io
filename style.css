@@ -1,14 +1,58 @@
 .flex-container {
     display: flex;
     background-color: rgb(241, 171, 40);
+
 }
 
 .item {
     background-color: #e63939;
-    width: 100px;
+    width: 50%;
     margin: 10px;
     text-align: center;
-    line-height: 75px;
-    font-size: 30px;
+    font-size: 25px;
+    order: 1;
+}
 
+.item2 {
+    background-color: #e63939;
+    width: 50%;
+    margin: 10px;
+    text-align: center;
+    font-size: 25px;
+    order: 1;
+    height: 300px;
+}
+
+#ftPhoto {
+    width: 400px;;
+    height: 400px;;
+}
+
+.mainDiv {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(172, 30, 30);
+    padding: 15px 30px
+}
+
+.navDiv{
+    text-align: center;
+    background-color: gold;
+}
+
+.label {
+    width: 50%;
+    text-align: center;
+}
+
+#neviLogo {
+    width: 70%;
+}
+
+.footerUL{
+    list-style: none;
+    float: left;
+    text-align: justify;
 }
